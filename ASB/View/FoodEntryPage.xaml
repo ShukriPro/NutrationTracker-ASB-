@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ASB.FoodEntryPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Picker x:Name="FoodPicker"
+        Title="Select food"
+        SelectedIndexChanged="OnFoodPickerSelectedIndexChanged" />
+
+
+
+            <Entry x:Name="FoodNameEntry"
+                   Placeholder="Enter food name" />
+
+            <Entry x:Name="CaloriesEntry"
+                   Placeholder="Calories"
+                   IsReadOnly="True" />
+
+            <Entry x:Name="CarbsEntry"
+                   Placeholder="Enter carbs (g)"
+                   Keyboard="Numeric"
+                   TextChanged="OnMacrosTextChanged" />
+
+            <Entry x:Name="ProteinEntry"
+                   Placeholder="Enter protein (g)"
+                   Keyboard="Numeric"
+                   TextChanged="OnMacrosTextChanged" />
+
+            <Entry x:Name="FatEntry"
+                   Placeholder="Enter fat (g)"
+                   Keyboard="Numeric"
+                   TextChanged="OnMacrosTextChanged" />
+
+            <Picker x:Name="MealTypePicker"
+                    Title="Select meal type">
+                <Picker.Items>
+                    <x:String>Breakfast</x:String>
+                    <x:String>Lunch</x:String>
+                    <x:String>Dinner</x:String>
+                    <x:String>Snacks</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Button Text="Add Entry"
+                    Clicked="OnAddEntryClicked" />
+
+            <!-- ListView to display stored entries -->
+            <ListView x:Name="NutritionEntriesListView" HeightRequest="200"
+                      ItemsSource="{Binding Entries}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding FoodName}" 
+                                  Detail="{Binding DetailInfo}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

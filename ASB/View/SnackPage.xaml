@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ASB.SnackPage">
+
+    <Grid RowDefinitions="*, 9*">
+        <!-- Image of the cup -->
+        <Label Text="🍿" FontSize="50" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0"/>
+
+        <!-- ListView to display snack entries -->
+        <ListView x:Name="SnackEntriesListView" 
+                  ItemsSource="{Binding SnackEntries}"
+                  Grid.Row="1">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding FoodName}" 
+                              Detail="{Binding DetailInfo}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+
+</ContentPage>

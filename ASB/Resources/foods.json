@@ -1,0 +1,666 @@
+[
+  {
+    "FoodName": "Apple 🍏",
+    "Carbs": 25.0,
+    "Protein": 0.5,
+    "Fat": 0.3,
+    "Calories": 95.0,
+    "ServingSize": "1 medium (182g)"
+  },
+  {
+    "FoodName": "Banana 🍌",
+    "Carbs": 27.0,
+    "Protein": 1.3,
+    "Fat": 0.3,
+    "Calories": 105.0,
+    "ServingSize": "1 medium (118g)"
+  },
+  {
+    "FoodName": "Orange 🍊",
+    "Carbs": 15.0,
+    "Protein": 1.2,
+    "Fat": 0.2,
+    "Calories": 62.0,
+    "ServingSize": "1 medium (131g)"
+  },
+  {
+    "FoodName": "Strawberry 🍓",
+    "Carbs": 7.7,
+    "Protein": 0.8,
+    "Fat": 0.3,
+    "Calories": 32.0,
+    "ServingSize": "1 cup (144g)"
+  },
+  {
+    "FoodName": "Grapes 🍇",
+    "Carbs": 16.0,
+    "Protein": 0.6,
+    "Fat": 0.2,
+    "Calories": 69.0,
+    "ServingSize": "1 cup (151g)"
+  },
+  {
+    "FoodName": "Watermelon 🍉",
+    "Carbs": 11.6,
+    "Protein": 0.9,
+    "Fat": 0.2,
+    "Calories": 46.0,
+    "ServingSize": "1 cup (154g)"
+  },
+  {
+    "FoodName": "Peach 🍑",
+    "Carbs": 15.0,
+    "Protein": 1.0,
+    "Fat": 0.4,
+    "Calories": 59.0,
+    "ServingSize": "1 medium (150g)"
+  },
+  {
+    "FoodName": "Cherries 🍒",
+    "Carbs": 12.0,
+    "Protein": 1.0,
+    "Fat": 0.3,
+    "Calories": 63.0,
+    "ServingSize": "1 cup (138g)"
+  },
+  {
+    "FoodName": "Mango 🥭",
+    "Carbs": 25.0,
+    "Protein": 0.8,
+    "Fat": 0.6,
+    "Calories": 99.0,
+    "ServingSize": "1 cup (165g)"
+  },
+  {
+    "FoodName": "Pineapple 🍍",
+    "Carbs": 21.6,
+    "Protein": 0.9,
+    "Fat": 0.2,
+    "Calories": 82.0,
+    "ServingSize": "1 cup (165g)"
+  },
+  {
+    "FoodName": "Broccoli 🥦",
+    "Carbs": 6.0,
+    "Protein": 2.6,
+    "Fat": 0.3,
+    "Calories": 31.0,
+    "ServingSize": "1 cup (91g)"
+  },
+  {
+    "FoodName": "Carrot 🥕",
+    "Carbs": 9.6,
+    "Protein": 0.9,
+    "Fat": 0.2,
+    "Calories": 41.0,
+    "ServingSize": "1 medium (61g)"
+  },
+  {
+    "FoodName": "Corn 🌽",
+    "Carbs": 19.0,
+    "Protein": 3.4,
+    "Fat": 1.5,
+    "Calories": 86.0,
+    "ServingSize": "1 ear (143g)"
+  },
+  {
+    "FoodName": "Tomato 🍅",
+    "Carbs": 3.9,
+    "Protein": 0.9,
+    "Fat": 0.2,
+    "Calories": 18.0,
+    "ServingSize": "1 medium (123g)"
+  },
+  {
+    "FoodName": "Eggplant 🍆",
+    "Carbs": 6.0,
+    "Protein": 1.0,
+    "Fat": 0.2,
+    "Calories": 25.0,
+    "ServingSize": "1 cup (82g)"
+  },
+  {
+    "FoodName": "Potato 🥔",
+    "Carbs": 37.0,
+    "Protein": 4.3,
+    "Fat": 0.2,
+    "Calories": 161.0,
+    "ServingSize": "1 medium (213g)"
+  },
+  {
+    "FoodName": "Hot Pepper 🌶",
+    "Carbs": 9.0,
+    "Protein": 2.0,
+    "Fat": 0.4,
+    "Calories": 40.0,
+    "ServingSize": "1 cup (92g)"
+  },
+  {
+    "FoodName": "Avocado 🥑",
+    "Carbs": 12.0,
+    "Protein": 3.0,
+    "Fat": 22.0,
+    "Calories": 234.0,
+    "ServingSize": "1 medium (150g)"
+  },
+  {
+    "FoodName": "Sweet Potato 🍠",
+    "Carbs": 27.0,
+    "Protein": 2.0,
+    "Fat": 0.1,
+    "Calories": 112.0,
+    "ServingSize": "1 medium (130g)"
+  },
+  {
+    "FoodName": "Leafy Green 🥬",
+    "Carbs": 4.1,
+    "Protein": 0.9,
+    "Fat": 0.1,
+    "Calories": 23.0,
+    "ServingSize": "1 cup (36g)"
+  },
+  {
+    "FoodName": "Mushroom 🍄",
+    "Carbs": 3.3,
+    "Protein": 3.1,
+    "Fat": 0.1,
+    "Calories": 22.0,
+    "ServingSize": "1 cup (70g)"
+  },
+  {
+    "FoodName": "Hamburger 🍔",
+    "Carbs": 30.0,
+    "Protein": 17.0,
+    "Fat": 12.0,
+    "Calories": 354.0,
+    "ServingSize": "1 sandwich (100g)"
+  },
+  {
+    "FoodName": "Pizza 🍕",
+    "Carbs": 36.0,
+    "Protein": 12.0,
+    "Fat": 10.0,
+    "Calories": 285.0,
+    "ServingSize": "1 slice (107g)"
+  },
+  {
+    "FoodName": "Chicken Leg 🍗",
+    "Carbs": 0.0,
+    "Protein": 18.0,
+    "Fat": 10.0,
+    "Calories": 187.0,
+    "ServingSize": "1 medium (106g)"
+  },
+  {
+    "FoodName": "Meat on Bone 🍖",
+    "Carbs": 0.0,
+    "Protein": 22.0,
+    "Fat": 13.0,
+    "Calories": 240.0,
+    "ServingSize": "1 medium (100g)"
+  },
+  {
+    "FoodName": "Spaghetti 🍝",
+    "Carbs": 31.0,
+    "Protein": 6.0,
+    "Fat": 1.0,
+    "Calories": 158.0,
+    "ServingSize": "1 cup (140g)"
+  },
+  {
+    "FoodName": "Taco 🌮",
+    "Carbs": 18.0,
+    "Protein": 6.0,
+    "Fat": 8.0,
+    "Calories": 156.0,
+    "ServingSize": "1 medium (67g)"
+  },
+  {
+    "FoodName": "Burrito 🌯",
+    "Carbs": 50.0,
+    "Protein": 20.0,
+    "Fat": 15.0,
+    "Calories": 425.0,
+    "ServingSize": "1 medium (241g)"
+  },
+  {
+    "FoodName": "Sushi 🍣",
+    "Carbs": 8.0,
+    "Protein": 3.0,
+    "Fat": 1.0,
+    "Calories": 45.0,
+    "ServingSize": "1 piece (25g)"
+  },
+  {
+    "FoodName": "Fried Shrimp 🍤",
+    "Carbs": 9.0,
+    "Protein": 6.0,
+    "Fat": 7.0,
+    "Calories": 134.0,
+    "ServingSize": "4 pieces (84g)"
+  },
+  {
+    "FoodName": "Rice Ball 🍙",
+    "Carbs": 34.0,
+    "Protein": 5.0,
+    "Fat": 0.5,
+    "Calories": 168.0,
+    "ServingSize": "1 medium (100g)"
+  },
+  {
+    "FoodName": "Rice Cracker 🍘",
+    "Carbs": 15.0,
+    "Protein": 2.0,
+    "Fat": 1.0,
+    "Calories": 70.0,
+    "ServingSize": "2 pieces (20g)"
+  },
+  {
+    "FoodName": "Stew 🍲",
+    "Carbs": 21.0,
+    "Protein": 10.0,
+    "Fat": 5.0,
+    "Calories": 210.0,
+    "ServingSize": "1 cup (240g)"
+  },
+  {
+    "FoodName": "Green Salad 🥗",
+    "Carbs": 3.0,
+    "Protein": 1.5,
+    "Fat": 0.2,
+    "Calories": 16.0,
+    "ServingSize": "1 cup (100g)"
+  },
+  {
+    "FoodName": "Popcorn 🍿",
+    "Carbs": 12.0,
+    "Protein": 1.3,
+    "Fat": 1.0,
+    "Calories": 55.0,
+    "ServingSize": "1 cup (8g)"
+  },
+  {
+    "FoodName": "Bento 🍱",
+    "Carbs": 70.0,
+    "Protein": 20.0,
+    "Fat": 15.0,
+    "Calories": 500.0,
+    "ServingSize": "1 box (300g)"
+  },
+  {
+    "FoodName": "Curry Rice 🍛",
+    "Carbs": 50.0,
+    "Protein": 10.0,
+    "Fat": 15.0,
+    "Calories": 350.0,
+    "ServingSize": "1 plate (250g)"
+  },
+  {
+    "FoodName": "Shaved Ice 🍧",
+    "Carbs": 22.0,
+    "Protein": 0.2,
+    "Fat": 0.1,
+    "Calories": 90.0,
+    "ServingSize": "1 cup (200g)"
+  },
+  {
+    "FoodName": "Ice Cream 🍨",
+    "Carbs": 16.0,
+    "Protein": 2.0,
+    "Fat": 7.0,
+    "Calories": 137.0,
+    "ServingSize": "1/2 cup (66g)"
+  },
+  {
+    "FoodName": "Doughnut 🍩",
+    "Carbs": 22.0,
+    "Protein": 2.0,
+    "Fat": 11.0,
+    "Calories": 195.0,
+    "ServingSize": "1 medium (50g)"
+  },
+  {
+    "FoodName": "Cookie 🍪",
+    "Carbs": 15.0,
+    "Protein": 1.5,
+    "Fat": 8.0,
+    "Calories": 140.0,
+    "ServingSize": "1 medium (28g)"
+  },
+  {
+    "FoodName": "Birthday Cake 🎂",
+    "Carbs": 37.0,
+    "Protein": 3.0,
+    "Fat": 14.0,
+    "Calories": 240.0,
+    "ServingSize": "1 slice (84g)"
+  },
+  {
+    "FoodName": "Chocolate Bar 🍫",
+    "Carbs": 23.0,
+    "Protein": 1.8,
+    "Fat": 13.0,
+    "Calories": 235.0,
+    "ServingSize": "1 bar (45g)"
+  },
+  {
+    "FoodName": "Candy 🍬",
+    "Carbs": 15.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 60.0,
+    "ServingSize": "5 pieces (20g)"
+  },
+  {
+    "FoodName": "Lollipop 🍭",
+    "Carbs": 15.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 60.0,
+    "ServingSize": "1 medium (15g)"
+  },
+  {
+    "FoodName": "Honey 🍯",
+    "Carbs": 17.0,
+    "Protein": 0.1,
+    "Fat": 0.0,
+    "Calories": 64.0,
+    "ServingSize": "1 tbsp (21g)"
+  },
+  {
+    "FoodName": "Hot Beverage ☕",
+    "Carbs": 0.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 2.0,
+    "ServingSize": "1 cup (240g)"
+  },
+  {
+    "FoodName": "Teacup 🍵",
+    "Carbs": 0.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 2.0,
+    "ServingSize": "1 cup (240g)"
+  },
+  {
+    "FoodName": "Sake 🍶",
+    "Carbs": 3.0,
+    "Protein": 0.2,
+    "Fat": 0.0,
+    "Calories": 39.0,
+    "ServingSize": "1 oz (30g)"
+  },
+  {
+    "FoodName": "Beer Mug 🍺",
+    "Carbs": 13.0,
+    "Protein": 1.6,
+    "Fat": 0.0,
+    "Calories": 153.0,
+    "ServingSize": "12 oz (355g)"
+  },
+  {
+    "FoodName": "Clinking Glasses 🥂",
+    "Carbs": 2.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 90.0,
+    "ServingSize": "5 oz (148g)"
+  },
+  {
+    "FoodName": "Tumbler Glass 🥃",
+    "Carbs": 0.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 97.0,
+    "ServingSize": "1.5 oz (42g)"
+  },
+  {
+    "FoodName": "Cup with Straw 🥤",
+    "Carbs": 27.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 108.0,
+    "ServingSize": "8 oz (240g)"
+  },
+  {
+    "FoodName": "Cocktail Glass 🍸",
+    "Carbs": 3.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 124.0,
+    "ServingSize": "4 oz (120g)"
+  },
+  {
+    "FoodName": "Tropical Drink 🍹",
+    "Carbs": 13.0,
+    "Protein": 0.0,
+    "Fat": 0.0,
+    "Calories": 99.0,
+    "ServingSize": "4 oz (120g)"
+  },
+  {
+    "FoodName": "Wine Glass 🍷",
+    "Carbs": 4.0,
+    "Protein": 0.1,
+    "Fat": 0.0,
+    "Calories": 125.0,
+    "ServingSize": "5 oz (148g)"
+  },
+  {
+    "FoodName": "Fork and Knife with Plate 🍽",
+    "Carbs": 30.0,
+    "Protein": 20.0,
+    "Fat": 10.0,
+    "Calories": 350.0,
+    "ServingSize": "1 plate (400g)"
+  },
+  {
+    "FoodName": "Egg 🥚",
+    "Carbs": 1.0,
+    "Protein": 6.0,
+    "Fat": 5.0,
+    "Calories": 68.0,
+    "ServingSize": "1 large (50g)"
+  },
+  {
+    "FoodName": "Milk 🥛",
+    "Carbs": 12.0,
+    "Protein": 8.0,
+    "Fat": 5.0,
+    "Calories": 149.0,
+    "ServingSize": "1 cup (244g)"
+  },
+  {
+    "FoodName": "Peanuts 🥜",
+    "Carbs": 6.0,
+    "Protein": 7.0,
+    "Fat": 14.0,
+    "Calories": 161.0,
+    "ServingSize": "1 oz (28g)"
+  },
+  {
+    "FoodName": "Kiwi 🥝",
+    "Carbs": 10.0,
+    "Protein": 1.0,
+    "Fat": 0.5,
+    "Calories": 42.0,
+    "ServingSize": "1 medium (69g)"
+  },
+  {
+    "FoodName": "Bacon 🥓",
+    "Carbs": 0.0,
+    "Protein": 3.0,
+    "Fat": 3.3,
+    "Calories": 43.0,
+    "ServingSize": "1 slice (8g)"
+  },
+  {
+    "FoodName": "French Fries 🍟",
+    "Carbs": 20.0,
+    "Protein": 2.0,
+    "Fat": 10.0,
+    "Calories": 200.0,
+    "ServingSize": "1 medium (117g)"
+  },
+  {
+    "FoodName": "Roasted Sweet Potato 🍠",
+    "Carbs": 27.0,
+    "Protein": 2.0,
+    "Fat": 0.1,
+    "Calories": 112.0,
+    "ServingSize": "1 medium (130g)"
+  },
+  {
+    "FoodName": "Steak 🥩",
+    "Carbs": 0.0,
+    "Protein": 26.0,
+    "Fat": 18.0,
+    "Calories": 271.0,
+    "ServingSize": "1 medium (142g)"
+  },
+  {
+    "FoodName": "Hot Dog 🌭",
+    "Carbs": 2.0,
+    "Protein": 5.0,
+    "Fat": 15.0,
+    "Calories": 180.0,
+    "ServingSize": "1 medium (52g)"
+  },
+  {
+    "FoodName": "Sandwich 🥪",
+    "Carbs": 27.0,
+    "Protein": 10.0,
+    "Fat": 12.0,
+    "Calories": 285.0,
+    "ServingSize": "1 medium (160g)"
+  },
+  {
+    "FoodName": "Green Apple 🍏",
+    "Carbs": 25.0,
+    "Protein": 0.5,
+    "Fat": 0.3,
+    "Calories": 95.0,
+    "ServingSize": "1 medium (182g)"
+  },
+  {
+    "FoodName": "Avocado Toast 🥑🍞",
+    "Carbs": 33.0,
+    "Protein": 6.0,
+    "Fat": 20.0,
+    "Calories": 285.0,
+    "ServingSize": "1 slice (100g)"
+  },
+  {
+    "FoodName": "Doner Kebab 🌯",
+    "Carbs": 20.0,
+    "Protein": 15.0,
+    "Fat": 18.0,
+    "Calories": 300.0,
+    "ServingSize": "1 wrap (200g)"
+  },
+  {
+    "FoodName": "Baguette 🥖",
+    "Carbs": 50.0,
+    "Protein": 10.0,
+    "Fat": 2.0,
+    "Calories": 250.0,
+    "ServingSize": "1 medium (125g)"
+  },
+  {
+    "FoodName": "Croissant 🥐",
+    "Carbs": 26.0,
+    "Protein": 4.0,
+    "Fat": 12.0,
+    "Calories": 231.0,
+    "ServingSize": "1 medium (57g)"
+  },
+  {
+    "FoodName": "Salad 🥗",
+    "Carbs": 10.0,
+    "Protein": 2.0,
+    "Fat": 5.0,
+    "Calories": 110.0,
+    "ServingSize": "1 cup (150g)"
+  },
+  {
+    "FoodName": "Pancakes 🥞",
+    "Carbs": 50.0,
+    "Protein": 8.0,
+    "Fat": 12.0,
+    "Calories": 350.0,
+    "ServingSize": "3 pancakes (150g)"
+  },
+  {
+    "FoodName": "Waffle 🧇",
+    "Carbs": 40.0,
+    "Protein": 8.0,
+    "Fat": 10.0,
+    "Calories": 300.0,
+    "ServingSize": "2 waffles (130g)"
+  },
+  {
+    "FoodName": "Milkshake 🥤",
+    "Carbs": 50.0,
+    "Protein": 10.0,
+    "Fat": 15.0,
+    "Calories": 400.0,
+    "ServingSize": "1 medium (300g)"
+  },
+  {
+    "FoodName": "Spaghetti 🍝",
+    "Carbs": 40.0,
+    "Protein": 8.0,
+    "Fat": 2.0,
+    "Calories": 220.0,
+    "ServingSize": "1 cup (140g)"
+  },
+  {
+    "FoodName": "Falafel 🧆",
+    "Carbs": 22.0,
+    "Protein": 6.0,
+    "Fat": 12.0,
+    "Calories": 240.0,
+    "ServingSize": "3 pieces (85g)"
+  },
+  {
+    "FoodName": "Burger 🍔",
+    "Carbs": 30.0,
+    "Protein": 17.0,
+    "Fat": 12.0,
+    "Calories": 354.0,
+    "ServingSize": "1 medium (150g)"
+  },
+  {
+    "FoodName": "Popcorn 🍿",
+    "Carbs": 22.0,
+    "Protein": 4.0,
+    "Fat": 1.0,
+    "Calories": 110.0,
+    "ServingSize": "1 medium (50g)"
+  },
+  {
+    "FoodName": "Beer 🍺",
+    "Carbs": 13.0,
+    "Protein": 1.0,
+    "Fat": 0.0,
+    "Calories": 150.0,
+    "ServingSize": "1 can (355g)"
+  },
+  {
+    "FoodName": "Wine 🍷",
+    "Carbs": 4.0,
+    "Protein": 0.1,
+    "Fat": 0.0,
+    "Calories": 125.0,
+    "ServingSize": "5 oz (148g)"
+  },
+  {
+    "FoodName": "Champagne 🥂",
+    "Carbs": 3.0,
+    "Protein": 0.1,
+    "Fat": 0.0,
+    "Calories": 90.0,
+    "ServingSize": "5 oz (148g)"
+  }
+]

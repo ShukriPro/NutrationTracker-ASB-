@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ASB.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ASB"
+    Shell.FlyoutBehavior="Disabled"
+    Title="ASB">
+
+    <!-- Define TabBar with icons -->
+    <TabBar>
+        <!-- Home tab with icon -->
+        <Tab Title="Home">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FontAwesomeSolid"
+                                 Glyph="{x:Static local:FontAwesomeIcons.Home}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" Route="MainPage" />
+        </Tab>
+        <!-- Foods tab with icon -->
+        <Tab Title="Foods">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FontAwesomeSolid"
+                                 Glyph="{x:Static local:FontAwesomeIcons.Food}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate local:FoodEntryPage}" Route="FoodEntryPage" />
+        </Tab>
+        <!-- My Profile tab with icon -->
+        <Tab Title="My Profile">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FontAwesomeSolid"
+                                 Glyph="{x:Static local:FontAwesomeIcons.User}" />
+            </Tab.Icon>
+            <ShellContent ContentTemplate="{DataTemplate local:ProfilePage}" Route="ProfilePage" />
+        </Tab>
+    </TabBar>
+</Shell>

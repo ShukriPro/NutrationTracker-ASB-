@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Apple",
+    "Protein": "0.3 g",
+    "Carbs": "25 g",
+    "Fat": "0.2 g",
+    "Calories": "95 kcal"
+  },
+  {
+    "Name": "Banana",
+    "Protein": "1.3 g",
+    "Carbs": "27 g",
+    "Fat": "0.3 g",
+    "Calories": "105 kcal"
+  },
+  {
+    "Name": "Orange",
+    "Protein": "1.2 g",
+    "Carbs": "15 g",
+    "Fat": "0.2 g",
+    "Calories": "62 kcal"
+  },
+  {
+    "Name": "Strawberry",
+    "Protein": "0.8 g",
+    "Carbs": "7.7 g",
+    "Fat": "0.3 g",
+    "Calories": "32 kcal"
+  },
+  {
+    "Name": "Blueberry",
+    "Protein": "0.7 g",
+    "Carbs": "14.5 g",
+    "Fat": "0.3 g",
+    "Calories": "57 kcal"
+  },
+  {
+    "Name": "Grapes",
+    "Protein": "0.6 g",
+    "Carbs": "17 g",
+    "Fat": "0.2 g",
+    "Calories": "69 kcal"
+  },
+  {
+    "Name": "Watermelon",
+    "Protein": "0.6 g",
+    "Carbs": "8 g",
+    "Fat": "0.2 g",
+    "Calories": "30 kcal"
+  },
+  {
+    "Name": "Pineapple",
+    "Protein": "0.5 g",
+    "Carbs": "13 g",
+    "Fat": "0.1 g",
+    "Calories": "50 kcal"
+  },
+  {
+    "Name": "Mango",
+    "Protein": "0.8 g",
+    "Carbs": "25 g",
+    "Fat": "0.6 g",
+    "Calories": "99 kcal"
+  },
+  {
+    "Name": "Peach",
+    "Protein": "1 g",
+    "Carbs": "15 g",
+    "Fat": "0.3 g",
+    "Calories": "59 kcal"
+  }
+]
