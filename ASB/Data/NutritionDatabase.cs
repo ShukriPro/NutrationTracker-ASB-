@@ -33,4 +33,5 @@ public class NutritionDatabase
     {
         return _database.Delete<NutritionEntry>(id);
     }
+
 }

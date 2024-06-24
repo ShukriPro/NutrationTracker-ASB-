@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ASB="clr-namespace:ASB"
+             x:Class="ASB.ProfilePage">
+    
+	<StackLayout>
+
+        <Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition/>
+				<ColumnDefinition/>
+			</Grid.ColumnDefinitions>
+
+			<Label
+                Grid.Row="0"
+                Text="Full Name:"
+                FontSize="20"
+                FontAttributes="Bold"
+                TextColor="#36474E"
+                Margin="16,14,0,0"/>
+
+			
+			<Frame Grid.Row="1" Grid.ColumnSpan="2" CornerRadius="15" BorderColor="#000000" HasShadow="True" Padding="10" Margin="15,0,15,0">
+				<Entry x:Name="nameInput" Placeholder="Enter Name" VerticalOptions="Center" Grid.Column="0" FontSize="20" />
+			</Frame>
+
+
+			<Label
+                Grid.Row="2"
+                Text="Age:"
+                FontSize="20"
+                FontAttributes="Bold"
+                TextColor="#36474E"
+                Margin="16,14,0,0"/>
+
+
+			<Frame Grid.Row="3" CornerRadius="15" BorderColor="#000000" HasShadow="True" Padding="10" Margin="15,0,15,0">
+				<Entry x:Name="ageInput" Placeholder="Enter Age" VerticalOptions="Center" Grid.Column="0" FontSize="20" />
+			</Frame>
+
+
+			<Label
+              Grid.Column="1"
+              Grid.Row="2"
+              Text="Gender:"
+              FontSize="20"
+              FontAttributes="Bold"
+              TextColor="#36474E"
+              Margin="16,14,0,0"/>
+
+			<Frame Grid.Column="1" Grid.Row="3" CornerRadius="15" BorderColor="#000000" HasShadow="True" Padding="10" Margin="15,0,15,0">
+				<Entry x:Name="genderInput" Placeholder="Enter Gender" VerticalOptions="Center" Grid.Column="0" FontSize="20" />
+			</Frame>
+
+			<Label
+                Grid.Row="4"
+                Text="Weight:"
+                FontSize="20"
+                FontAttributes="Bold"
+                TextColor="#36474E"
+                Margin="16,14,0,0"/>
+
+			<Frame Grid.Row="5" CornerRadius="15" BorderColor="#000000" HasShadow="True" Padding="10" Margin="15,0,15,0">
+				<Entry x:Name="weightInput"  Placeholder="Enter Weight" VerticalOptions="Center" Grid.Column="0" FontSize="20" />
+			</Frame>
+
+
+			<Label
+              Grid.Column="1"
+              Grid.Row="4"
+              Text="Height:"
+              FontSize="20"
+              FontAttributes="Bold"
+              TextColor="#36474E"
+              Margin="16,14,0,0"/>
+
+			<Frame Grid.Column="1" Grid.Row="5" CornerRadius="15" BorderColor="#000000" HasShadow="True" Padding="10" Margin="15,0,15,0">
+				<Entry x:Name="heightInput" Placeholder="Enter Height" VerticalOptions="Center" Grid.Column="0" FontSize="20" />
+			</Frame>
+
+			<Label
+              Grid.Column="0"
+              Grid.Row="6"
+              Text="Medical Conditions:"
+              FontSize="20"
+              FontAttributes="Bold"
+              TextColor="#36474E"
+              Margin="16,14,0,0"/>
+
+			<Frame Grid.Column="0" Grid.Row="8" CornerRadius="15" Grid.ColumnSpan="2"  BorderColor="#000000" HasShadow="True" Padding="10" Margin="15,0,15,0">
+				<Editor x:Name="medicalConditionEditor" Placeholder="Enter Medical Condtion" HeightRequest="150" VerticalOptions="FillAndExpand" Grid.Column="0" FontSize="20" />
+			</Frame>
+
+            <Button Text="Save" Clicked="OnSaveClicked" Grid.Column="0" Grid.Row="10" Margin="16,16,16,0" HeightRequest="50" Grid.ColumnSpan="2"/>
+            <Button Text="load" Clicked="OnLoadClicked" Grid.Column="0" Grid.Row="11" Margin="16,16,16,0" HeightRequest="50" Grid.ColumnSpan="2"/>
+
+		</Grid>
+	</StackLayout>
+
+
+</ContentPage>

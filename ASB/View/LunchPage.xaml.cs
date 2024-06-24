@@ -31,7 +31,7 @@ namespace ASB
             InitializeComponent();
             _database = new NutritionDatabase();
             LoadLunchEntries();
-            DeleteCommand = new Command<NutritionEntry>(OnDelete);
+            //DeleteCommand = new Command<NutritionEntry>(OnDelete);
             EditCommand = new Command<NutritionEntry>(OnEdit);
             BindingContext = this;
         }
@@ -50,11 +50,11 @@ namespace ASB
 
         }
 
-        private void OnDelete(NutritionEntry entry)
-        {
-            _database.DeleteNutritionEntry(entry.Id);
-            LunchEntries.Remove(entry);
-        }
+        //private void OnDelete(NutritionEntry entry)
+        //{
+        //    _database.DeleteNutritionEntry(entry.Id);
+        //    LunchEntries.Remove(entry);
+        //}
 
         private async void OnEdit(NutritionEntry entry)
         {

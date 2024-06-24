@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>realme RMX2202 (Android 13.0 - API 33)</ActiveDebugProfile>
+    <ActiveDebugProfile>Samsung SM-S918B (Android 14.0 - API 34)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
   <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
@@ -11,7 +11,7 @@
     <PlatformTarget>arm64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="ProfilePage.xaml">
+    <MauiXaml Update="View\ProfilePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\BreakfastPage.xaml">

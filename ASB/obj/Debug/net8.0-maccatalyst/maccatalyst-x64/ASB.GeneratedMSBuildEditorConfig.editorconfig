@@ -12,71 +12,71 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ASB
-build_property.ProjectDir = c:\Users\justs\Desktop\ASB\ASB\
+build_property.ProjectDir = C:\Users\User\OneDrive\Desktop\shukri\ASB\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[c:/Users/justs/Desktop/ASB/ASB/App.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/AppShell.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/MainPage.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/ProfilePage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = ASB.ProfilePage.xaml
-build_metadata.AdditionalFiles.TargetPath = ProfilePage.xaml
-build_metadata.AdditionalFiles.RelativePath = ProfilePage.xaml
-
-[c:/Users/justs/Desktop/ASB/ASB/Resources/Styles/Colors.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/Resources/Styles/Styles.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/View/BreakfastPage.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/View/BreakfastPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.View.BreakfastPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\BreakfastPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\BreakfastPage.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/View/DinnerPage.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/View/DinnerPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.View.DinnerPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\DinnerPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\DinnerPage.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/View/FoodEntryPage.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/View/FoodEntryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.View.FoodEntryPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\FoodEntryPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\FoodEntryPage.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/View/LunchPage.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/View/LunchPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.View.LunchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\LunchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\LunchPage.xaml
 
-[c:/Users/justs/Desktop/ASB/ASB/View/SnackPage.xaml]
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/View/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ASB.View.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ProfilePage.xaml
+
+[C:/Users/User/OneDrive/Desktop/shukri/ASB/View/SnackPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ASB.View.SnackPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\SnackPage.xaml
